@@ -1,10 +1,12 @@
 .navbar {
+  border-radius: 10px;
   background-color: #000000;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
 }
 
 .navbar-brand {
@@ -25,7 +27,7 @@
 }
 
 .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.269);
 }
 
 @media (max-width: 768px) {
